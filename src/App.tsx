@@ -10,7 +10,7 @@ const templates = [
     color: 'from-red-500 to-red-600',
     borderColor: 'border-red-200',
     hoverColor: 'hover:border-red-300',
-    preview: '/src/components/recipe-book-bold.html',
+    preview: '/templates/bold/recipe-book-bold.html',
     features: ['Strong geometric layouts', 'High contrast colors', 'Oswald + Roboto fonts', 'Perfect for fitness/protein content'],
     bestFor: 'Fitness & Protein Guides',
     popularity: 95
@@ -23,7 +23,7 @@ const templates = [
     color: 'from-rose-400 to-pink-500',
     borderColor: 'border-rose-200',
     hoverColor: 'hover:border-rose-300',
-    preview: '/src/components/recipe-book-soft.html',
+    preview: '/templates/soft/recipe-book-soft.html',
     features: ['Warm pastel colors', 'Rounded corners & shadows', 'Poppins + Dancing Script', 'Ideal for comfort food & family recipes'],
     bestFor: 'Family & Comfort Food',
     popularity: 88
@@ -36,7 +36,7 @@ const templates = [
     color: 'from-slate-500 to-gray-600',
     borderColor: 'border-gray-200',
     hoverColor: 'hover:border-gray-300',
-    preview: '/src/components/recipe-book-simple.html',
+    preview: '/templates/simple/recipe-book-simple.html',
     features: ['Minimalist aesthetic', 'Clean typography', 'Inter font family', 'Perfect for professional chefs'],
     bestFor: 'Professional & Modern',
     popularity: 92
@@ -350,7 +350,7 @@ function App() {
               <span>Explore Templates</span>
             </button>
             <a
-              href="/src/components/documentation.md"
+              href="/templates/documentation.md"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-xl hover:border-gray-400 hover:bg-gray-50 transition-all duration-300 flex items-center justify-center space-x-2 font-medium text-lg"
